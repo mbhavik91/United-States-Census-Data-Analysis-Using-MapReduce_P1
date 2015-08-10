@@ -1,0 +1,14 @@
+#READ ME !!!
+
+Dataset used is "unsorted-2"
+
+CSU ID 830407082
+
+Number of reducers used is 16
+
+Main Classname is MainJob
+
+Package Structure: cs455.gigasort.hadoop
+
+How to run? Please typr the following command:
+$HADOOP_HOME/bin/hadoop jar workspace/Assignment3/dist/gigasort.jar cs455.gigasort.hadoop.MainJob /data/gigasort/unsorted-2 /home/output/final
