@@ -2,8 +2,6 @@
 
 Dataset used is "unsorted-2"
 
-CSU ID 830407082
-
 Number of reducers used is 16
 
 Main Classname is MainJob
@@ -12,3 +10,15 @@ Package Structure: cs455.gigasort.hadoop
 
 How to run? Please typr the following command:
 $HADOOP_HOME/bin/hadoop jar workspace/Assignment3/dist/gigasort.jar cs455.gigasort.hadoop.MainJob /data/gigasort/unsorted-2 /home/output/final
+
+Dataset Size = 19.9 GB
+
+A shell script was developed to get the final results
+
+The following commang was used to generate the hash value of each file
+"openssl sha1 part-r-00006 | awk '{print $2}' >> hashvalue"
+
+After that Generatehash.java was used to generate the finalHash in a recursive fashion
+
+Merkle Tree Algorithm was used to generate the final hash value
+
