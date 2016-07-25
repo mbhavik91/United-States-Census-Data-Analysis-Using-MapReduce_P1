@@ -1,4 +1,4 @@
-<project name="MapReduce" default="dist" basedir=".">
+<project name="MapReduc" default="dist" basedir=".">
     <description>
         simple example build file
     </description>
