@@ -2,7 +2,7 @@
 
 Dataset used is "unsorted-2"
 
-Number of reducers used is 16
+Number of reducers used is 16. (change code if asked to use 32 reducers. change partitioner and main job)
 
 Main Classname is MainJob
 
